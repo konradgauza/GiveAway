@@ -1,0 +1,69 @@
+@import 'reset/reset';
+@import 'settings/fonts';
+@import 'settings/colors';
+@import 'elements/header';
+@import 'elements/_welcomeSection';
+@import 'elements/numbersSection';
+@import 'elements/giveAway4Steps';
+@import 'elements/aboutUsSection';
+@import 'elements/whoAreWeHelping';
+@import 'elements/bottomSection';
+@import 'elements/giveAwayFormSection';
+@import 'elements/authentication';
+@import 'elements/mobileMenu';
+
+
+html {
+  font-size: 62.5%;
+
+  @media (max-width: 1800px) {
+    font-size: 57.5%;
+  }
+
+  @media (max-width: 1700px) {
+    font-size: 53.5%;
+  }
+
+  @media (max-width: 1600px) {
+    font-size: 50.5%;
+  }
+
+  
+  @media (max-width: 1500px) {
+    font-size: 45.5%;
+  }
+
+  @media (max-width: 1450px) {
+    font-size: 47.5%;
+  }
+
+  @media (max-width: 1366px) {
+    font-size: 43.5%;
+  }
+
+  @media (max-width: 1316px) {
+    font-size: 40.5%;
+  }
+
+  @media (max-width: 1166px) {
+    font-size: 32.5%;
+  }
+
+
+}
+
+body {
+  font-family: $font-base;
+}
+
+.container {
+  width: 100%;
+  max-width: 198rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+*:focus {
+  outline: none;
+}
+

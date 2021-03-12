@@ -1,0 +1,64 @@
+
+.about-us {
+  height: 93.5rem;
+  width: 100%;
+  display: flex;
+  padding-top: 7rem;
+
+  .about-us-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-color: #F0F1F1;
+
+    @media (max-width: 450px) {
+      width: 100%;
+    }
+
+    .about-us-title{
+      font-size: 3.8rem;
+      line-height: 5.5rem;
+      letter-spacing: 0.076rem;
+      margin-bottom: 2.6rem;
+      color: #3C3C3C;
+
+    }
+
+    .about-us-decoration {
+      margin-bottom: 5.5rem;
+    }
+
+    .about-us-description {
+      max-width: 65.6rem;
+      font-size: 3rem;
+      line-height: 5.4rem;
+      letter-spacing: -0.06rem;
+      color: #3C3C3C;
+      text-align: center;
+      font-weight: 300;
+
+    }
+
+    .about-us-signature {
+      align-self: flex-end;
+      margin-top: 4rem;
+      margin-right: 14rem;
+
+    }
+  }
+
+  .about-us-photo {
+    height: 100%;
+    width: 50%;
+    background-image: url("../../assets/People.jpg");
+    background-size: cover;
+    background-position: left;
+
+    @media (max-width: 450px) {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,152 @@
+
+.who-are-we-helping {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 7rem;
+
+  .helping-title{
+    font-size: 3.8rem;
+    line-height: 5.5rem;
+    letter-spacing: -0.076rem;
+
+  }
+
+  .helping-decoration {
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .helping-buttons {
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 450px) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+
+
+    .helping-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.4rem;
+      line-height: 2.4rem;
+      color: #3C3C3C;
+      border: 0.075rem solid transparent;
+      margin: 0 3rem 8rem 3rem;
+      height: 7rem;
+      width: 25rem;
+      text-align: center;
+
+      @media (max-width: 450px) {
+        width: 70%;
+        margin: 0 0 3rem 0;
+        border: 0.05rem solid rgba(0, 0, 0, 0.6);
+      }
+
+      &:hover {
+        border: 0.075rem solid #3C3C3C;
+      }
+    }
+  }
+
+  .helping-description {
+    width: 30%;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin-bottom: 6.6rem;
+
+    @media (max-width: 450px) {
+      width: 70%;
+      margin-top: 5rem;
+    }
+  }
+
+  .helping-table {
+    width: 134.4rem;
+    margin-bottom: 6.3rem;
+
+    @media (max-width: 450px) {
+      width: 90%;
+    }
+
+    .table-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 300;
+      color: #3C3C3C;
+      padding: 3.1rem 0;
+
+      @media (max-width: 450px) {
+        flex-direction: column;
+      }
+
+      &:nth-child(2) {
+        border-top: 0.3rem solid lightgray;
+        border-bottom: 0.3rem solid lightgray;
+      }
+
+
+      .left-info{
+        text-align: left;
+
+        @media (max-width: 450px) {
+          text-align: center;
+        }
+
+        .name {
+          font-size: 2.6rem;
+          line-height: 3.1rem;
+        }
+
+        .goal {
+          font-size: 1.8rem;
+          line-height: 2.2rem;
+
+          @media (max-width: 450px) {
+            margin-top: 1rem;
+          }
+        }
+      }
+
+      .items {
+        text-align: right;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+
+        @media (max-width: 450px) {
+          margin-top: 2rem;
+        }
+      }
+
+    }
+  }
+
+  .site-numbers {
+    margin-bottom: 9.3rem;
+    display: flex;
+
+    .site-number {
+      margin: 0 1.5rem;
+      font-size: 1.8rem;
+      line-height: 2.4rem;
+      padding: 1rem;
+      border: 0.075rem solid transparent;
+      cursor: pointer;
+
+      &:hover {
+        border: 0.075rem solid #3C3C3C;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,294 @@
+
+.welcome-section {
+  margin-top: -10rem;
+  height: 113.3rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url("../../assets/Home-Hero-Image.jpg");
+  background-position-x: -53rem;
+  background-size: 162rem auto;
+  background-repeat: no-repeat;
+
+  @media (max-width: 800px) {
+    margin-top: -4rem;
+    position: relative;
+    background-image: none;
+    justify-content: center;
+
+    &:after {
+      content: ' ';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      opacity: 0.2;
+      height: 100%;
+      width: 200%;
+      background-image: url("../../assets/Home-Hero-Image.jpg");
+      background-size: cover;
+      z-index: 3;
+    }
+
+  }
+
+  .welcome-image-container {
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: -55rem;
+
+    .welcome-image {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .give-away-image-container {
+    height: 50%;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+
+    .welcome-image {
+      height: 80%;
+      width: auto;
+    }
+
+  }
+
+  .welcome-content-container {
+    height: 100%;
+    width: 40%;
+    margin-right: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 800px) {
+      width: 80%;
+      margin: 0;
+      text-align: center;
+    }
+
+    .welcome-content-text {
+      font-size: 3.8rem;
+      font-weight: 300;
+      line-height: 5.5rem;
+
+      @media (max-width: 800px) {
+        margin-bottom: 3rem;
+        font-size: 4.5rem;
+        width: 92%;
+        font-weight: 400;
+      }
+    }
+
+    .welcome-content-decoration {
+      margin-top: 3.5rem;
+
+      @media (max-width: 800px) {
+        margin-top: 6.5rem;
+        margin-bottom: 5rem;
+      }
+    }
+
+    .welcome-section-buttons {
+      box-sizing: border-box;
+      display: flex;
+      margin-top: 7.5rem;
+
+      @media (max-width: 800px) {
+        flex-direction: column;
+        margin-top: 8.5rem;
+        margin-bottom: -4rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        z-index: 5;
+      }
+
+      .welcome-section-btn {
+        color: black;
+        font-weight: 300;
+        height: 10.5rem;
+        width: 31rem;
+        text-align: center;
+        justify-content: center;
+        font-size: 3.6rem;
+        border: 0.075rem solid black;
+        margin: 0 2.6rem;
+        line-height: 4.5rem;
+        padding-top: 1rem;
+
+        @media (max-width: 800px) {
+          width: 80%;
+          margin: 0;
+          margin-bottom: 4rem;
+          display: flex;
+          align-items: center;
+          padding: 0;
+        }
+      }
+    }
+
+    .welcome-section-instruction-text {
+      font-size: 4rem;
+      line-height: 5.5rem;
+      margin-top: 1.9rem;
+      font-weight: 300;
+
+    }
+
+  }
+
+}
+
+
+.giveaway-welcome-section {
+
+  margin-top: -10rem;
+  height: 113.3rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url("../../assets/Form-Hero-Image.jpg");
+  background-position-x: -10rem;
+  background-position-y: 0;
+  background-size: 142rem auto;
+  background-repeat: no-repeat;
+
+  @media (max-width: 800px) {
+    margin-top: -4rem;
+    position: relative;
+    background-image: none;
+    justify-content: center;
+
+    &:after {
+      content: ' ';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      opacity: 0.2;
+      height: 100%;
+      width: 200%;
+      background-image: url("../../assets/Form-Hero-Image.jpg");
+      background-size: cover;
+      z-index: 3;
+    }
+
+  }
+
+
+
+  .giveaway-content-container {
+    height: 100%;
+    width: 40%;
+    margin-right: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 800px) {
+      width: 100%;
+      margin-right: 0;
+    }
+
+
+    .welcome-content-text {
+      font-size: 3.8rem;
+      font-weight: 300;
+      line-height: 5.5rem;
+    }
+
+    .welcome-content-decoration {
+      margin-top: 3.5rem;
+
+      @media (max-width: 800px) {
+        width: 50%;
+        margin-right: 0;
+      }
+    }
+
+    .welcome-section-buttons {
+      box-sizing: border-box;
+      display: flex;
+      margin-top: 7.5rem;
+
+      .welcome-section-btn {
+        color: black;
+        font-weight: 300;
+        height: 10.5rem;
+        width: 31rem;
+        text-align: center;
+        justify-content: center;
+        font-size: 3.6rem;
+        border: 0.075rem solid black;
+        margin: 0 2.6rem;
+        line-height: 4.5rem;
+        padding-top: 1rem;
+      }
+    }
+
+    .welcome-content-instruction-text {
+      font-size: 4rem;
+      line-height: 5.5rem;
+      margin-top: 1.9rem;
+      font-weight: 300;
+
+    }
+
+    .welcome-content-steps {
+      display: flex;
+      margin-top: 9rem;
+      margin-bottom: -20rem;
+
+      @media (max-width: 800px) {
+        margin-bottom: -10rem;
+        padding-bottom: 8rem;
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: center;
+      }
+
+      .rhombus {
+        height: 15rem;
+        width: 15rem;
+        transform: rotate(45deg);
+        border: 0.1rem solid black;
+        margin: 0 0.85rem;
+
+        @media (max-width: 800px) {
+          margin-bottom: 2rem;
+        }
+
+        .rhombus-content {
+          height: 15rem;
+          width: 15rem;
+          transform: rotate(-45deg);
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          justify-content: center;
+
+          .rhombus-number {
+            font-size: 3.2rem;
+            line-height: 2.7rem;
+            font-weight: 300;
+          }
+
+          .rhombus-text {
+            font-size: 2.2rem;
+            line-height: 2.7rem;
+            font-weight: 300;
+            margin-top: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
