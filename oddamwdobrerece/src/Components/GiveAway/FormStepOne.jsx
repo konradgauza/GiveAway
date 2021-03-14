@@ -22,15 +22,15 @@ const FormStepOne = (props) => {
 
 
     return (
-        <div className="giveaway-container">
+        <div className="giveaway-step-one">
             <div className="giveaway-warning-container">
                 <p className="giveaway-warning-title"> WAŻNE! </p>
                 <p className="giveaway-warning-details"> Uzupełnij szczegóły dotyczące Twoich rzeczy. Dzięki temu będziemy wiedzieć komu najlepiej je przekazać. </p>
             </div>
-            <div className="giveaway-form-container">
+            <div className="step-one-body">
                 <p className="form-step-number"> Krok 1/4 </p>
-                <div className="form-step-checkboxes">
-                    <p className="form-step-title"> Zaznacz co chcesz oddać: </p>
+                <div className="step-one-form">
+                    <p className="step-one-title"> Zaznacz co chcesz oddać: </p>
                     <div className="form-checkbox-handler">
                         <input type="checkbox" className="checkbox" value={checkbox1} onChange={toggleCheck1}/>
                         <p className="checkbox-text"> ubrania, które nadają się do ponownego użycia</p>

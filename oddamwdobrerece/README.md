@@ -7,11 +7,13 @@ Dane do logowania na konto testowe:
 login: test@test.com
 hasło: test123
 
+
+
 ## Dostępność
 
 - Pełne repozytorium dostepne na GitHub pod adresem: https://github.com/konradgauza/Porftoliolab
 
-- Wersja live dostępna pod adresem: https://oddam-rzeczy-23ac5.web.app
+- Wersja live dostępna pod adresem: https://hostingtest-d385f.web.app
 
 - Projekt dostępny jest w wersji desktopowej jak i mobilnej
 

@@ -117,7 +117,7 @@ const Header = (props) => {
                                     </>
                                 ) : (
                                     <>
-                                        <Link to="/" className="home-button" onClick={toggleMenu}> Strona<br /> Główna </Link>
+                                        <Link to="/" className="home-button" onClick={toggleMenu}> Strona Główna </Link>
                                     </>
                                 )}
                             </div>

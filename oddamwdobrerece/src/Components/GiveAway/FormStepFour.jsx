@@ -7,16 +7,16 @@ const FormStepFour = (props) => {
 
 
     return (
-        <div className="giveaway-container">
+        <div className="giveaway-step-four">
             <div className="giveaway-warning-container">
                 <p className="giveaway-warning-title"> WAŻNE! </p>
                 <p className="giveaway-warning-details"> Wszystkie rzeczy do oddania zapakuj w 60l worki. Dokładną instrukcję jak poprawnie spakować rzeczy znajdziesz TUTAJ. </p>
             </div>
-            <div className="giveaway-form-container">
+            <div className="step-four-body">
                 <p className="form-step-number"> Krok 4/4 </p>
-                <div className="form-step-four-container">
-                    <p className="form-step-title"> Podaj adres oraz termin odbioru rzecz przez kuriera </p>
-                    <div className="input-main-container">
+                <div className="step-four-form">
+                    <p className="step-four-title"> Podaj adres oraz termin odbioru rzecz przez kuriera </p>
+                    <div className="step-four-inputs">
                         <div className="input-inside-container">
                             <p className="input-inside-container-title"> Adres odbioru: </p>
                             <div className="input-holder">
@@ -61,5 +61,7 @@ const FormStepFour = (props) => {
         </div>
     )
 };
+
+
 
 export default FormStepFour;

@@ -1,0 +1,181 @@
+@import "../../settings/giveAwayFormMixins";
+
+
+
+
+
+//----------------------------------------//
+//                                        //
+//                SUMMARY                 //
+//                                        //
+//----------------------------------------//
+
+.summary-container {
+  height: 92rem;
+  width: 100%;
+  background-image: url("../../../assets/Background-Form.jpg");
+  background-size: contain;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 2.4rem;
+
+  @media (max-width: 800px) {
+    height: 132rem;
+    position: relative;
+    background-image: none;
+    justify-content: center;
+
+    &:after {
+      content: ' ';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      opacity: 0.2;
+      height: 100%;
+      width: 200%;
+      background-image: url("../../../assets/Background-Form.jpg");
+      background-size: cover;
+      background-position-y: 0;
+      background-position-x: -150rem;
+      z-index: 3;
+    }
+
+  }
+
+
+  .summary-main-title {
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+    margin-left: 14.1rem;
+    margin-top: 7rem;
+
+    @media (max-width: 450px) {
+      margin-left: 2rem
+    }
+
+  }
+
+  .giveaway-items-summary {
+    margin-left: 14.1rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+
+    @media (max-width: 450px) {
+      margin-left: 2rem;
+      margin-top: 5rem;
+      margin-bottom: 0;
+    }
+
+    .items-summary-title {
+      font-weight: 600;
+      margin-bottom: 2rem;
+      font-size: 2.4rem;
+    }
+
+    .giveaway-items-holder {
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+
+      .items-icon {
+        width: 6rem;
+        height: 6rem;
+      }
+
+      .items-text-holder {
+        line-height: 2rem;
+        margin-left: 2rem;
+        font-size: 1.6rem;
+      }
+    }
+
+    .giveaway-location-holder {
+      display: flex;
+      align-items: center;
+
+      .location-icon {
+        width: 6rem;
+        height: 6rem;
+      }
+
+      .location-text {
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  .pickup-summary {
+    display: flex;
+    justify-content: space-between;
+    width: 100rem;
+    margin-left: 14.1rem;
+    margin-top: -2rem;
+
+    @media (max-width: 450px) {
+      flex-direction: column;
+      margin-left: 3rem;
+      margin-top: 5rem;
+      height: 55rem;
+    }
+
+    .pickup-summary-box {
+      .summary-title {
+        font-weight: 600;
+        line-height: 4.5rem;
+      }
+
+      .line-holder {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        font-weight: 300;
+
+        .line-title {
+          width: 11.5rem;
+          margin-right: 3rem;
+          line-height: 3.2rem;
+        }
+
+        .line-text-filler {
+          max-width: 15rem;
+        }
+
+        .div-comment {
+          font-size: 2rem;
+          width: 33rem;
+          height: 10rem;
+          overflow-wrap: break-word;
+          overflow-y: scroll;
+        }
+      }
+    }
+  }
+
+  .form-step-buttons {
+    margin-left: 14.1rem;
+
+    @media (max-width: 450px) {
+      margin-left: 2rem;
+      z-index: 7;
+    }
+
+    .form-step-btn-back {
+      @include button(5.3rem, 5rem, 0)
+    }
+
+    .form-step-btn {
+      @include button(6.3rem, 0, 5rem);
+
+      @media (max-width: 450px) {
+        padding: 2.3rem 4.3rem;
+        margin-top: 5rem;
+      }
+    }
+  }
+}
+

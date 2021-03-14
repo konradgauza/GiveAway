@@ -48,7 +48,6 @@
         line-height: 5.5rem;
         letter-spacing: -0.076rem;
         margin-bottom: 2.5rem;
-
       }
 
       .form-decoration {
@@ -68,16 +67,17 @@
       .personal-info {
         display: flex;
         margin-bottom: 4rem;
-        justify-content: space-around;
+        justify-content: space-between;
+        width: 100%;
 
         @media (max-width: 450px) {
           flex-direction: column;
           width: 80%;
+          justify-content: space-around;
         }
 
         label {
           font-size: 1.6rem;
-          margin: 0 0.8rem;
 
           @media (max-width: 450px) {
             margin-bottom: 1rem;
@@ -97,7 +97,6 @@
             width: 100%;
             background-color: rgba(255, 255, 255, .5);
           }
-
         }
 
         .input-handler {
@@ -107,14 +106,7 @@
           @media (max-width: 450px) {
             margin-top: 4rem;
           }
-
-          .errorMsg {
-            margin-left: 0.8rem;
-          }
-
         }
-
-
       }
 
       .message-handler {
@@ -147,8 +139,6 @@
             width: 100%;
             background-color: rgba(255, 255, 255, .5);
           }
-
-
         }
       }
 
@@ -159,10 +149,12 @@
         padding: 1.1rem 5.2rem;
         border: 0.1rem solid black;
         align-self: flex-end;
+        color: black;
 
         @media (max-width: 450px) {
           margin-right: 3rem;
           z-index: 5;
+          color: black;
         }
       }
 
@@ -173,9 +165,7 @@
         color: red;
         font-weight: 700;
       }
-
     }
-
   }
 
   .footer {

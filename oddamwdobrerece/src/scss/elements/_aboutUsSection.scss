@@ -16,6 +16,7 @@
 
     @media (max-width: 450px) {
       width: 100%;
+      padding: 0 4rem;
     }
 
     .about-us-title{
@@ -46,6 +47,11 @@
       align-self: flex-end;
       margin-top: 4rem;
       margin-right: 14rem;
+
+      @media (max-width: 450px) {
+        align-self: center;
+        margin-right: 0;
+      }
 
     }
   }

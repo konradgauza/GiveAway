@@ -8,7 +8,12 @@
 @import 'elements/aboutUsSection';
 @import 'elements/whoAreWeHelping';
 @import 'elements/bottomSection';
-@import 'elements/giveAwayFormSection';
+@import "elements/giveAwayFormSection/stepOne";
+@import "elements/giveAwayFormSection/stepTwo";
+@import "elements/giveAwayFormSection/stepThree";
+@import "elements/giveAwayFormSection/stepFour";
+@import "elements/giveAwayFormSection/summary";
+@import "elements/giveAwayFormSection/finalStep";
 @import 'elements/authentication';
 @import 'elements/mobileMenu';
 

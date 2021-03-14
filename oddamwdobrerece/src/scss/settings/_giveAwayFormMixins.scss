@@ -1,0 +1,129 @@
+@mixin checkbox($width, $height, $context) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: $width;
+  height: 5.5rem;
+  background-clip: content-box;
+  border: 0.075rem solid #3C3C3C;
+  background-color: transparent;
+  margin-right: 2.4rem;
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 5rem;
+  font-weight: 300;
+  margin-left: 0;
+
+  @media (max-width: 450px) {
+    text-align: left;
+    height: $height;
+    line-height: 2.2rem;
+  }
+
+  &:after {
+    content: $context;
+  }
+
+  &:checked {
+    background-color: #FAD648;
+  }
+}
+
+@mixin form-step-container($mobile-height, $media-position-X) {
+  height: 100rem;
+  width: 100%;
+  background-image: url("../../assets/Background-Form.jpg");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  @media (max-width: 800px) {
+    height: $mobile-height;
+    position: relative;
+    background-image: none;
+    justify-content: center;
+
+    &:after {
+      content: ' ';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      opacity: 0.2;
+      height: 100%;
+      width: 200%;
+      background-image: url("../../assets/Background-Form.jpg");
+      background-size: cover;
+      background-position-y: 13rem;
+      background-position-x: $media-position-X;
+      z-index: 3;
+    }
+  }
+}
+
+@mixin form-warning {
+  height: 18rem;
+  width: 100%;
+  background-color: #FAD648;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 14.1rem;
+
+  @media (max-width: 800px) {
+    padding-left: 3rem;
+    padding-right: 5rem;
+  }
+
+  .giveaway-warning-title {
+    font-size: 3.6rem;
+    line-height: 3.2rem;
+  }
+
+  .giveaway-warning-details {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+
+    @media (max-width: 450px) {
+      width: 40rem;
+    }
+  }
+}
+
+@mixin form-body($mobile-step-number-margin) {
+  box-sizing: border-box;
+  padding: 5rem 14.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: calc(100% - 18rem);
+
+  @media (max-width: 800px) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    z-index: 5;
+  }
+
+  .form-step-number {
+    font-size: 2.4rem;
+    line-height: 2.7rem;
+    font-weight: 300;
+
+    @media (max-width: 800px) {
+      margin-bottom: $mobile-step-number-margin;
+    }
+  }
+}
+
+@mixin button($padding-left-right, $margin-right, $margin-bottom) {
+  display: inline-block;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: black;
+  padding: 2.3rem $padding-left-right;
+  border: 0.075rem solid #3C3C3C;
+  margin-right: $margin-right;
+  margin-bottom: $margin-bottom;
+  z-index: 7;
+}

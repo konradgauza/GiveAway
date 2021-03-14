@@ -45,6 +45,7 @@
 
       @media (max-width: 450px) {
         width: 50%;
+        margin-top: 3rem;
       }
 
       .line-two-icon {
@@ -80,12 +81,6 @@
         @media (max-width: 450px) {
           width: 9rem;
           height: 0.2rem;
-        }
-
-        &.last {
-          @media (max-width: 450px) {
-            //margin-top: 3.15rem;
-          }
         }
       }
 

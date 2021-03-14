@@ -8,22 +8,6 @@
   flex-direction: column;
   align-items: flex-end;
 
-  //@media (max-width: 800px) {
-  //  display: block;
-  //  flex-direction: column;
-  //  width: 100vw;
-  //  height: 100vh;
-  //  background-color: white;
-  //  position: fixed;
-  //  top: -10rem;
-  //  left: 0;
-  //  transform: translate3d(0vw, 6rem, 0);
-  //  transition: transform 1s cubic-bezier(0, .52, 0, 1);
-  //  z-index: 15;
-  //  text-align: center;
-  //  justify-content: center;
-  //  padding-top: 7rem;
-  //}
 
   .user-bar {
     display: flex;
@@ -50,7 +34,6 @@
       border: 0.075rem solid #FAD648;
       padding: 0.7rem 1rem;
     }
-
   }
 
   .menu-bar {
@@ -68,7 +51,5 @@
         border: 0.075rem solid #3C3C3C;
       }
     }
-
   }
-
 }

@@ -1,0 +1,40 @@
+@import "../../settings/giveAwayFormMixins";
+
+
+
+
+
+
+//----------------------------------------//
+//                                        //
+//              FINAL STEP                //
+//                                        //
+//----------------------------------------//
+
+
+.final-step {
+  @include form-step-container(100rem, -100rem);
+
+  .content-holder {
+    height: 100%;
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    line-height: 5.5rem;
+    letter-spacing: -0.08rem;
+    font-weight: 300;
+
+    @media (max-width: 800px) {
+      width: 100%;
+      font-size: 3rem;
+      line-height: 3.5rem;
+    }
+
+    .decoration {
+      margin-top: 2.5rem;
+    }
+  }
+}
