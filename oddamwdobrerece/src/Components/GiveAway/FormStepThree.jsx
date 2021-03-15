@@ -44,11 +44,11 @@ const FormStepThree = (props) => {
                     </select>
                     <p className="step-three-question"> Komu chcesz pomóc? </p>
                     <div className="step-three-checkboxes">
-                        <input type="checkbox" className="checkbox-one" value={checkbox6} onChange={toggleCheck6}/>
-                        <input type="checkbox" className="checkbox-two" value={checkbox7} onChange={toggleCheck7}/>
-                        <input type="checkbox" className="checkbox-three" value={checkbox8} onChange={toggleCheck8}/>
-                        <input type="checkbox" className="checkbox-four" value={checkbox9} onChange={toggleCheck9}/>
-                        <input type="checkbox" className="checkbox-five" value={checkbox10} onChange={toggleCheck10}/>
+                        <input type="checkbox" className="checkbox-one" checked={checkbox6} onChange={toggleCheck6}/>
+                        <input type="checkbox" className="checkbox-two" checked={checkbox7} onChange={toggleCheck7}/>
+                        <input type="checkbox" className="checkbox-three" checked={checkbox8} onChange={toggleCheck8}/>
+                        <input type="checkbox" className="checkbox-four" checked={checkbox9} onChange={toggleCheck9}/>
+                        <input type="checkbox" className="checkbox-five" checked={checkbox10} onChange={toggleCheck10}/>
                     </div>
                     <p className="step-three-question"> Wpisz nazwę konkretnej organizacji (opcjonalnie) </p>
                     <input type="text" className="form-text-input" value={organisation} onChange={e => setOrganisation(e.target.value)}/>
