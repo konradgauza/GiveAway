@@ -304,22 +304,21 @@
       <workItem from="1615539180704" duration="812000" />
       <workItem from="1615656906426" duration="11721000" />
       <workItem from="1615752572171" duration="7957000" />
-      <workItem from="1615829866561" duration="6445000" />
+      <workItem from="1615829866561" duration="6497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164893000" />
+    <option name="totallyTimeSpent" value="164945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50089765" side_tool="true" weight="0.24947146" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49910232" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49910232" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.14096385" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.14096385" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
