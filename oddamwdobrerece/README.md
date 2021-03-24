@@ -1,15 +1,24 @@
-# Projekt Oddam rzeczy w dobre ręcę
+# Projekt Oddam rzeczy w dobre ręcę / Make a donation
 
-Jest to aplikacja internetowa służaca do organizowania zbiórek dla potrzebujących, oraz przekazywania paczek z rzeczami codziennego użytku, które nie są już nam potrzebne.
+Aplikacja internetowa służaca do organizowania zbiórek dla potrzebujących, oraz przekazywania paczek z rzeczami codziennego użytku, które nie są już nam potrzebne.
 
 Dane do logowania na konto testowe:
 
-login: test@test.com
-hasło: test123
+- Login: test@test.com
+- Hasło: test123
+
+----------------
+
+Giveaway unnecessary things (toys, clothes, books and other) to those in need. Create an account, sign in and make a donation for those who need it the most.
+
+Create new account, or check out full functionality from the test account:
+
+- Login: test@test.com
+- Password: test123
 
 
 
-## Dostępność
+## Dostępność / Availability 
 
 - Pełne repozytorium dostepne na GitHub pod adresem: https://github.com/konradgauza/Porftoliolab
 
@@ -17,10 +26,20 @@ hasło: test123
 
 - Projekt dostępny jest w wersji desktopowej jak i mobilnej
 
+----------------
+
+- Full repository available on GitHub at: https://github.com/konradgauza/Porftoliolab
+
+- Online version available at: https://oddam-rzeczy-23ac5.web.app
+
+- Project is responsive
+
 
 ## Składowe aplikacji
 
-- Landing page -
+- Registration
+
+- Landing page
 
 podzielony na 5 sekcji. 
 Po kliknięciu przycisku w nawigacji, jesteśmy przenoszeni do odpowiedniego komponentu na stronie.
@@ -36,7 +55,7 @@ Po potwierdzeniu danych dostajemy dostęp do części serwisu zarezerwowanych ty
 
 - 6-etapowy formularz kontrolowany, pozwalający wysłać darowiznę
 
-### Użyte technologie:
+## Technologie / Technologies:
 
 - Create React App
 - React
@@ -44,12 +63,12 @@ Po potwierdzeniu danych dostajemy dostęp do części serwisu zarezerwowanych ty
 - React Scroll
 - React Hooks
 - React Hamburger menu
-- Formularz kontrolowany
-- Paginacja stron
+- Controlled forms
+- Pagination
 - Node Sass
 - Firebase Auth
 - Firebase Cloud Firestore
 - Firebase Hosting
-- Walidacja danych
-- Inne
+- Data validation
+- Inne / Other
 
