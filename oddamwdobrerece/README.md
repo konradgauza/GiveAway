@@ -35,25 +35,38 @@ Create new account, or check out full functionality from the test account:
 - Project is responsive
 
 
-## Składowe aplikacji
+## Możliwości / Capabilities
 
-- Registration
+- Zarejestruj konto i zaloguj się w najprostszy możliwy sposób
 
-- Landing page
+- Pasek menu zmianający się zależnie od ścieżki routa i informacji na temat logowania użytkownika
 
-podzielony na 5 sekcji. 
-Po kliknięciu przycisku w nawigacji, jesteśmy przenoszeni do odpowiedniego komponentu na stronie.
+- Podstrona oddaj rzeczy dostepna wyłącznie dla zalogowanych użytkowników
 
-- Rejestracja i logowanie -
+- 3-częsciowy komponent połączony z paginacją
 
-pełna autentyfikacja użytkownika. 
-Po potwierdzeniu danych dostajemy dostęp do części serwisu zarezerwowanych tylko dla zalogowanych użytkowników.
+- Lista fundacji/organizacji/zbiórek
 
-- Formularz kontaktowy
+- Weryfikowany formularz kontaktowy
 
-- Komponenty kontrolowane i paginacja
+- 6-etapowy formularz kontrolowany, pozwalający wysłać darowiznę (zapamietuje wprowadzone dane)
 
-- 6-etapowy formularz kontrolowany, pozwalający wysłać darowiznę
+----------------
+
+- Register new account and login easly
+
+- Toggling menu bar
+
+- Give away subpage available only for logged users
+
+- Multipage component with pagination
+
+- Foundations/Oragnisations/Collections list
+
+- Verified contact form
+
+- 6-steps give away form with saved data
+
 
 ## Technologie / Technologies:
 
