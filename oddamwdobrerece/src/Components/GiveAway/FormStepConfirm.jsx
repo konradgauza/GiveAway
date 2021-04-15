@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Tshirt from '../../assets/Icon-1.svg';
 import Recycling from '../../assets/Icon-4.svg';
-import firebaseData from '../firebaseData';
+import firebaseData from '../../firebaseData';
 
 
 const FormStepFour = (props) => {

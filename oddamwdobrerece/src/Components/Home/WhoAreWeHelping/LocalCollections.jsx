@@ -8,32 +8,32 @@ const LocalCollections = () => {
     const postPerPage = 3;
     const organisationsList = [
         {
-            name: "Dbam o Zdrowie1",
+            name: "Zbiórka Lokalna 1",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie2",
+            name: "Zbiórka Lokalna 2",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie3",
+            name: "Zbiórka Lokalna 3",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie4",
+            name: "Zbiórka Lokalna 4",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie5",
+            name: "Zbiórka Lokalna 5",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie6",
+            name: "Zbiórka Lokalna 6",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         }

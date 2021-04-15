@@ -8,107 +8,107 @@ const Organisations = () => {
     const postPerPage = 3;
     const organisationsList = [
         {
-            name: "Dbam o Zdrowie1",
+            name: "Organizacja 1",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie2",
+            name: "Organizacja 2",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie3",
+            name: "Organizacja 3",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie4",
+            name: "Organizacja 4",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie5",
+            name: "Organizacja 5",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie6",
+            name: "Organizacja 6",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie7",
+            name: "Organizacja 7",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie8",
+            name: "Organizacja 8",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie9",
+            name: "Organizacja 9",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie10",
+            name: "Organizacja 10",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie11",
+            name: "Organizacja 11",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie12",
+            name: "Organizacja 12",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie13",
+            name: "Organizacja 13",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie14",
+            name: "Organizacja 14",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie15",
+            name: "Organizacja 15",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie16",
+            name: "Organizacja 16",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie17",
+            name: "Organizacjae 17",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie18",
+            name: "Organizacja 18",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie19",
+            name: "Organizacja 19",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie20",
+            name: "Organizacja 20",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie21",
+            name: "Organizacja 21",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },

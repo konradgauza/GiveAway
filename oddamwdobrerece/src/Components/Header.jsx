@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import { useLocation } from 'react-router-dom'
-import firebaseData from './firebaseData';
+import firebaseData from '../firebaseData';
 import HamburgerMenu from 'react-hamburger-menu';
 import Decoration from '../assets/Decoration.svg';
 

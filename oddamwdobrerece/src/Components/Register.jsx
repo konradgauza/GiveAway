@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Decoration from "../assets/Decoration.svg";
 import {Link, useHistory} from "react-router-dom";
-import firebaseData from './firebaseData';
+import firebaseData from '../firebaseData';
 
 const Register = () => {
     const history = useHistory();

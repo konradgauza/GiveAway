@@ -1,87 +1,66 @@
-# Projekt Oddam rzeczy w dobre ręcę / Make a donation
+# Witaj w aplikacji - Oddam rzeczy w dobre ręcę!
 
-Aplikacja internetowa służaca do organizowania zbiórek dla potrzebujących, oraz przekazywania paczek z rzeczami codziennego użytku, które nie są już nam potrzebne.
-
-Dane do logowania na konto testowe:
-
-- Login: test@test.com
-- Hasło: test123
-
-----------------
-
-Giveaway unnecessary things (toys, clothes, books and other) to those in need. Create an account, sign in and make a donation for those who need it the most.
-
-Create new account, or check out full functionality from the test account:
-
-- Login: test@test.com
-- Password: test123
+> **Concept**: Giveaway unnecessary things (toys, clothes, books and other) to those in need. Create an account, sign in and make a donation for those who need it the most.
 
 
 
-## Dostępność / Availability 
-
-- Pełne repozytorium dostepne na GitHub pod adresem: https://github.com/konradgauza/Porftoliolab
-
-- Wersja live dostępna pod adresem: https://oddam-rzeczy-23ac5.web.app
-
-- Projekt dostępny jest w wersji desktopowej jak i mobilnej
-
-----------------
-
-- Full repository available on GitHub at: https://github.com/konradgauza/Porftoliolab
-
-- Online version available at: https://oddam-rzeczy-23ac5.web.app
-
-- Project is responsive
 
 
-## Możliwości / Capabilities
+## 🌍 Accessibility
 
-- Zarejestruj konto i zaloguj się w najprostszy możliwy sposób
+```Check it online:``` https://oddam-rzeczy-23ac5.web.app/
 
-- Pasek menu zmianający się zależnie od ścieżki routa i informacji na temat logowania użytkownika
+Login for the test account:
 
-- Podstrona oddaj rzeczy dostepna wyłącznie dla zalogowanych użytkowników
+login: ```test@test.com```
+hasło: ```test123```
+### 🏠 Landing page
+![demo screenshot](./src/assets/readMe/home.png)
+### 💝 Give Away Form
+![demo screenshot](./src/assets/readMe/giveAwayForm.png)
+### 📝 Registration Form
+![demo screenshot](./src/assets/readMe/registration.png)
 
-- 3-częsciowy komponent połączony z paginacją
 
-- Lista fundacji/organizacji/zbiórek
+## 💥 Aplikacja
 
-- Weryfikowany formularz kontaktowy
 
-- 6-etapowy formularz kontrolowany, pozwalający wysłać darowiznę (zapamietuje wprowadzone dane)
 
-----------------
-
+- Scrollable Landing page - divided for 5 parts
 - Register new account and login easly
-
 - Toggling menu bar
-
 - Give away subpage available only for logged users
-
-- Multipage component with pagination
-
-- Foundations/Oragnisations/Collections list
-
+- Multistage component with pagination
+- Foundations/Organisations/Collections list
 - Verified contact form
+- 6-steps give away form with stored data (you can go back and change options)
 
-- 6-steps give away form with saved data
+## 👌 Functions
+* Responsive Web Design (RWD)
+* All donations are saved in the Cloud Firestore database
 
-
-## Technologie / Technologies:
+## 📓 Użyte technologie:
 
 - Create React App
 - React
 - React Router
 - React Scroll
+- React Form
 - React Hooks
 - React Hamburger menu
-- Controlled forms
+- Controlled form
 - Pagination
 - Node Sass
 - Firebase Auth
 - Firebase Cloud Firestore
+- Firebase API
 - Firebase Hosting
 - Data validation
-- Inne / Other
+
+
+## ⚙️ Jak zainstalować:
+1. ``` git clone https://github.com/konradgauza/GiveAway.git ```
+2. ``` cd GiveAway ```
+3. ``` npm i ```
+4. ``` npm start ```
 

@@ -8,7 +8,7 @@ import Register from "./Components/Register";
 import Logout from "./Components/Logout";
 import Header from './Components/Header';
 import Registered from './Components/Registered';
-import firebaseData from './Components/firebaseData';
+import firebaseData from './firebaseData';
 
 
 

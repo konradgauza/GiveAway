@@ -8,17 +8,17 @@ const Foundations = () => {
     const postPerPage = 3;
     const organisationsList = [
         {
-            name: "Dbam o Zdrowie1",
+            name: "Fundacja 1",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie2",
+            name: "Fundacja 2",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         },
         {
-            name: "Dbam o Zdrowie3",
+            name: "Fundacja 3",
             goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
             items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
         }
