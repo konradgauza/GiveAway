@@ -1,8 +1,6 @@
-# Witaj w aplikacji - Oddam rzeczy w dobre ręcę!
+# Give Away for those in need!
 
 > **Concept**: Giveaway unnecessary things (toys, clothes, books and other) to those in need. Create an account, sign in and make a donation for those who need it the most.
-
-
 
 
 
@@ -22,7 +20,7 @@ hasło: ```test123```
 ![demo screenshot](./src/assets/readMe/registration.png)
 
 
-## 💥 Aplikacja
+## 💥 Application
 
 - Scrollable Landing page - divided for 5 parts
 - Register new account and login easly
