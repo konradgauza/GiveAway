@@ -132,8 +132,8 @@ const FormStepFour = (props) => {
                 </div>
 
                 <div className="form-step-buttons">
-                    <a href="" className="form-step-btn-back" onClick={(e) => {e.preventDefault(); setPage(4)}}> Wstecz </a>
-                    <a href="" className="form-step-btn" onClick={(e) => {e.preventDefault(); addData(); setPage(6)}}> Potwierdzam </a>
+                    <a href="#" className="form-step-btn-back" onClick={(e) => {e.preventDefault(); setPage(4)}}> Wstecz </a>
+                    <a href="#" className="form-step-btn" onClick={(e) => {e.preventDefault(); addData(); setPage(6)}}> Potwierdzam </a>
                 </div>
             </div>
     )

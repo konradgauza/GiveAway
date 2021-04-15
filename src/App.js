@@ -27,10 +27,6 @@ function App() {
         })
     });
 
-    console.log(window.innerHeight);
-    console.log(window.innerWidth);
-
-
     return (
         <div className="container">
             <Router>

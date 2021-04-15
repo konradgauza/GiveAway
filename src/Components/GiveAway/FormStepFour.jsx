@@ -54,8 +54,8 @@ const FormStepFour = (props) => {
                     </div>
                 </div>
                 <div className="form-step-buttons">
-                    <a href="" className="form-step-btn-back" onClick={(e) => {e.preventDefault(); setPage(3)}}> Wstecz </a>
-                    <a href="" className="form-step-btn" onClick={(e) => {e.preventDefault(); setPage(5)}}> Dalej </a>
+                    <a href="#" className="form-step-btn-back" onClick={(e) => {e.preventDefault(); setPage(3)}}> Wstecz </a>
+                    <a href="#" className="form-step-btn" onClick={(e) => {e.preventDefault(); setPage(5)}}> Dalej </a>
                 </div>
             </div>
         </div>

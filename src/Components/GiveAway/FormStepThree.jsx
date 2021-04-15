@@ -54,8 +54,8 @@ const FormStepThree = (props) => {
                     <input type="text" className="form-text-input" value={organisation} onChange={e => setOrganisation(e.target.value)}/>
                 </div>
                 <div className="form-nav-buttons">
-                    <a href="" className="form-nav-btn-back" onClick={(e) => {e.preventDefault(); setPage(2)}}> Wstecz </a>
-                    <a href="" className="form-nav-btn" onClick={(e) => {e.preventDefault(); setPage(4)}}> Dalej </a>
+                    <a href="#" className="form-nav-btn-back" onClick={(e) => {e.preventDefault(); setPage(2)}}> Wstecz </a>
+                    <a href="#" className="form-nav-btn" onClick={(e) => {e.preventDefault(); setPage(4)}}> Dalej </a>
                 </div>
             </div>
         </div>

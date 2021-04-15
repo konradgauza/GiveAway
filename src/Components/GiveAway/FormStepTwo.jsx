@@ -28,8 +28,8 @@ const FormStepTwo = (props) => {
                     </div>
                 </div>
                 <div className="form-nav-buttons">
-                    <a href="" className="form-nav-btn-back" onClick={(e) => {e.preventDefault(); setPage(1)}}> Wstecz </a>
-                    <a href="" className="form-nav-btn" onClick={(e) => {e.preventDefault(); setPage(3)}}> Dalej </a>
+                    <a href="#" className="form-nav-btn-back" onClick={(e) => {e.preventDefault(); setPage(1)}}> Wstecz </a>
+                    <a href="#" className="form-nav-btn" onClick={(e) => {e.preventDefault(); setPage(3)}}> Dalej </a>
                 </div>
             </div>
         </div>

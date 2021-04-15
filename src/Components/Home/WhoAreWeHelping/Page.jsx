@@ -1,28 +1,24 @@
-import React, { useState } from 'react';
-import Pagination from './Pagination';
+import React, {useEffect, useState} from "react";
+import firebaseData from "../../../firebaseData";
+import Pagination from "./Pagination";
 
-
-const Foundations = () => {
-
+const Page = (props) => {
+    const [organisationsList, setOrganisationsList] = useState([]);
+    const { page } = props;
     const [currentPage, setCurrentPage] = useState(1);
     const postPerPage = 3;
-    const organisationsList = [
-        {
-            name: "Fundacja 1",
-            goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
-            items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
-        },
-        {
-            name: "Fundacja 2",
-            goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
-            items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
-        },
-        {
-            name: "Fundacja 3",
-            goal: "Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
-            items: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
-        }
-    ];
+
+    useEffect(() => {
+        firebaseData.firestore().collection(page)
+            .onSnapshot((querySnapshot) => {
+                const array = [];
+                querySnapshot.forEach((doc) => {
+                    array.push(doc.data());
+                })
+                setOrganisationsList(array);
+                setCurrentPage(1);
+            });
+    }, [page])
 
     const indexOfLastPost = currentPage * postPerPage;
     const indexOfFirstPost = indexOfLastPost - postPerPage;
@@ -38,11 +34,11 @@ const Foundations = () => {
         <>
             <p className="helping-description"> W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują. </p>
             <ul className="helping-table">
-                {currentPosts.map(organisation => {
+                {currentPosts.map((organisation, index) => {
                     return (
-                        <div className="table-row">
+                        <div className="table-row" key={index}>
                             <div className="left-info">
-                                <p className="name"> Fundacja {organisation.name} </p>
+                                <p className="name"> {organisation.name} </p>
                                 <p className="goal"> Cel i misja: {organisation.goal} </p>
                             </div>
                             <p className="items"> {organisation.items} </p>
@@ -55,4 +51,4 @@ const Foundations = () => {
     )
 };
 
-export default Foundations;
+export default Page;

@@ -10,6 +10,7 @@ const Header = (props) => {
     const location = useLocation();
     const { user, setUser} = props;
     const [mobile, setMobile] = useState(window.innerWidth < 800);
+    const [open, setOpen] = useState(false);
 
     const handleLogout = () => {
         setUser('');
@@ -21,13 +22,10 @@ const Header = (props) => {
         setMobile(window.innerWidth < 800);
     };
 
-
     useEffect(() => {
         window.addEventListener("resize", updateMedia);
         return () => window.removeEventListener("resize", updateMedia);
     }, []);
-
-    const [open, setOpen] = useState(false);
 
     const toggleMenu = () => {
         setOpen(!open);
@@ -69,51 +67,51 @@ const Header = (props) => {
                             <div className="mobile-menu-links">
                                 {location.pathname === "/" ? (
                                     <>
-                                            <ScrollLink
-                                                to="start"
-                                                spy={true} smooth={true}
-                                                duration={1000}
-                                                className="menu-links-btn"
-                                                onClick={toggleMenu}
-                                            >
-                                                Start
-                                            </ScrollLink>
-                                            <ScrollLink
-                                                to="about-foundation"
-                                                spy={true} smooth={true}
-                                                duration={1000}
-                                                className="menu-links-btn"
-                                                onClick={toggleMenu}
-                                            >
-                                                O co chodzi
-                                            </ScrollLink>
-                                            <ScrollLink
-                                                to="about-us"
-                                                spy={true} smooth={true}
-                                                duration={1000}
-                                                className="menu-links-btn"
-                                                onClick={toggleMenu}
-                                            >
-                                                O nas
-                                            </ScrollLink>
-                                            <ScrollLink
-                                                to="organisations"
-                                                spy={true} smooth={true}
-                                                duration={1000}
-                                                className="menu-links-btn"
-                                                onClick={toggleMenu}
-                                            >
-                                                Fundacja i organizacje
-                                            </ScrollLink>
-                                            <ScrollLink
-                                                to="contact"
-                                                spy={true} smooth={true}
-                                                duration={1000}
-                                                className="menu-links-btn"
-                                                onClick={toggleMenu}
-                                            >
-                                                Kontakt
-                                            </ScrollLink>
+                                        <ScrollLink
+                                            to="start"
+                                            spy={true} smooth={true}
+                                            duration={1000}
+                                            className="menu-links-btn"
+                                            onClick={toggleMenu}
+                                        >
+                                            Start
+                                        </ScrollLink>
+                                        <ScrollLink
+                                            to="about-foundation"
+                                            spy={true} smooth={true}
+                                            duration={1000}
+                                            className="menu-links-btn"
+                                            onClick={toggleMenu}
+                                        >
+                                            O co chodzi
+                                        </ScrollLink>
+                                        <ScrollLink
+                                            to="about-us"
+                                            spy={true} smooth={true}
+                                            duration={1000}
+                                            className="menu-links-btn"
+                                            onClick={toggleMenu}
+                                        >
+                                            O nas
+                                        </ScrollLink>
+                                        <ScrollLink
+                                            to="organisations"
+                                            spy={true} smooth={true}
+                                            duration={1000}
+                                            className="menu-links-btn"
+                                            onClick={toggleMenu}
+                                        >
+                                            Fundacja i organizacje
+                                        </ScrollLink>
+                                        <ScrollLink
+                                            to="contact"
+                                            spy={true} smooth={true}
+                                            duration={1000}
+                                            className="menu-links-btn"
+                                            onClick={toggleMenu}
+                                        >
+                                            Kontakt
+                                        </ScrollLink>
                                     </>
                                 ) : (
                                     <>
@@ -126,7 +124,6 @@ const Header = (props) => {
                 </div>
                 ) : (
                 <div className="header">
-
                     <div className="user-bar">
                         {user ? (
                             <>
@@ -140,8 +137,6 @@ const Header = (props) => {
                                 <Link to="/rejestracja" className="register-btn"> Załóż konto </Link>
                             </>
                         )}
-
-
                     </div>
 
                     {location.pathname === "/" ? (
@@ -173,8 +168,6 @@ const Header = (props) => {
                             <Link to="/" className="menu-btn"> Start </Link>
                         </div>
                     )}
-
-
                 </div>
                 )}
             </>

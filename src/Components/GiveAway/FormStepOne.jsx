@@ -54,7 +54,7 @@ const FormStepOne = (props) => {
                         <p className="checkbox-text"> inne </p>
                     </div>
                 </div>
-                <a href="" className="form-step-btn"  onClick={(e) => {e.preventDefault(); setPage(2)}}> Dalej </a>
+                <a href="#" className="form-step-btn"  onClick={(e) => {e.preventDefault(); setPage(2)}}> Dalej </a>
             </div>
         </div>
     )

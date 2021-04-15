@@ -24,8 +24,6 @@ hasło: ```test123```
 
 ## 💥 Aplikacja
 
-
-
 - Scrollable Landing page - divided for 5 parts
 - Register new account and login easly
 - Toggling menu bar
@@ -39,7 +37,7 @@ hasło: ```test123```
 * Responsive Web Design (RWD)
 * All donations are saved in the Cloud Firestore database
 
-## 📓 Użyte technologie:
+## 📓 Used Technologies:
 
 - Create React App
 - React
@@ -58,7 +56,7 @@ hasło: ```test123```
 - Data validation
 
 
-## ⚙️ Jak zainstalować:
+## ⚙️ How to install:
 1. ``` git clone https://github.com/konradgauza/GiveAway.git ```
 2. ``` cd GiveAway ```
 3. ``` npm i ```
